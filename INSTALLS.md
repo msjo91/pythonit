@@ -23,9 +23,9 @@ if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi
 ```
 2-1. 위가 등록되어있지 않을 경우
 ```bash
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 ```
 3. 터미널 종료 후 다시 시작
 ## [Source Code Pro](https://github.com/adobe-fonts/source-code-pro)
